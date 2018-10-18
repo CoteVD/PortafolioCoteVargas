@@ -5,77 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>MJVD</title>
+    <link rel="icon" type="image/png" href="./img/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman|Notable" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="continer-fluid m-0">
-        <div class="row">
-            <nav id="navbar-example2" class="navbar">
-                <h3 class="navbar-brand"><i class="fas fa-terminal"></i>María José</h3>
-                <ul class="nav nav-pills">
-                    <li class="nav-item"><a class="nav-link" href="#verse1">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#verse2">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#verse3">Contact</a></li>
-                </ul>
+
+    <div class="row justify-content-center rowTop animated fadeIn">
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand titleName">María José
+                    <p class="normalLetter">Front-End Developer</p>
+                </a>
+                <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-heart mt-1" style="color:#E83556"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active navbarNames">
+                            <a class="nav-link" onclick="profile()">Perfil</a>
+                        </li>
+                        <li class="nav-item active navbarNames">
+                            <a class="nav-link" onclick="resume()">Currículum</a>
+                        </li>
+                        <li class="nav-item active navbarNames">
+                            <a class="nav-link" onclick="projects()">Proyectos</a>
+                        </li>
+                        <li class="nav-item active navbarNames">
+                            <a class="nav-link" onclick="contact()">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">
-                <h1 id="verse1" class="title p-5 text-center">Home</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint saepe doloremque corrupti, voluptatum deserunt veniam, debitis voluptatibus odit vel facilis atque quam hic modi. Quidem magnam voluptatibus et corrupti eaque nobis nostrum
-                    neque esse odit nisi qui sequi iure cupiditate, omnis, adipisci ipsum iste debitis optio? Delectus alias veritatis perspiciatis impedit ipsam, praesentium laudantium tempore sit, et suscipit optio vero, eos id mollitia quae eligendi.
-                    Blanditiis accusantium maiores quidem quod animi. Laboriosam ducimus modi libero iste cumque sunt fugiat blanditiis dolorum quis voluptatum tempora unde, eaque eveniet maxime quas nemo rerum suscipit consequatur, necessitatibus odio
-                    fugit! Id vitae debitis fuga.</p>
-                <h1 id="verse2" class="p-5 text-center">Portfolio</h1>
-                <div class="row">
-                    <div class="card col m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="img/cat-2083492_960_720.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                    <div class="card col m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="img/cat-pet-animal-domestic-104827.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="card col m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="img/pexels-photo-617278.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                    <div class="card col m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="img/pexels-photo.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="container-fluid animated fadeIn contenedor" id="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                <img class="img-fluid" src="./img/photoProfile.png" alt="Foto">
             </div>
-            <h1 id="verse3" class="p-5 text-center">Contact</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorem, aliquid nostrum rem inventore possimus in aut! Dolor harum nihil inventore sunt quaerat officiis reiciendis, repudiandae sequi hic unde doloremque beatae omnis iste
-                eaque exercitationem labore cumque repellendus illum debitis deserunt architecto laboriosam? Labore autem laborum aut nam eaque sit facilis eius quaerat a. Voluptatibus rerum itaque neque reprehenderit asperiores veritatis inventore dignissimos
-                cumque aut at magnam nihil consequuntur iure quaerat pariatur, maxime atque omnis modi est recusandae vitae nam ipsam? Debitis cum modi dolorem esse dignissimos? Modi, suscipit laboriosam. Dicta, similique. Cumque a iste tempore modi,
-                soluta neque aut?</p>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                <p class="titleName">Hola,</p>
+                <p class="normalLetter">un poco acerca de mi:</p>
+                <span class="text-center"><button type="button" class="btn btnResume m-1" onclick="smallCV()">Currículum</button><button
+                        type="button" class="btn btnProjects m-1" onclick="smallPro()">Proyectos</button><button type="button"
+                        class="btn btnContact m-1" onclick="smallCon()">Contáctame</button></span>
+                <p class="normalLetter">Me llamo María José Vargas Donoso, tengo 32 años y vivo en Chile.</p>
+                <p class="normalLetter">Soy una mujer apasionada por el mundo tecnológico desde pequeña. Estudié
+                    Medicina Veterinaria pero
+                    me dí cuenta que no era mi rumbo, así que decidí dar el paso y buscar mi destino en el mundo de la
+                    programación. Lejos, una excelente decisión.</p>
+                <p class="normalLetter">Busco lugares que aporten a mi desarrollo personal y profesional. Me encanta lo
+                    que hago y soy muy autodidacta. Me encanta aprender y desafiarme constantemente.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer animated fadeIn">
+        <div class="row rowFooter">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 m-0 p-0">
+                <p class="footerLetter mb-1 text-center"><i class="fas fa-envelope-square mr-2 mt-2 icon"></i><b>Correo:</b></p>
+                <p class="footerLetter text-center">majovardon@gmail.com</p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 m-0 p-0">
+                <p class="footerLetter mb-1 text-center"><i class="fab fa-linkedin mr-2 mt-2 icon"></i><b>LinkedIn:</b></p>
+                <p class="footerLetter text-center">https://www.linkedin.com/in/maria-jose-vd/</p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 m-0 p-0">
+                <p class="footerLetter mb-1 text-center"><i class="fab fa-github mr-2 mt-2 icon"></i><b>Github:</b></p>
+                <p class="footerLetter text-center">https://github.com/coteVD</p>
+            </div>
         </div>
     </div>
 
-
-    <script src="app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="navbar.js"></script>
+    <script src="htmlbtn.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

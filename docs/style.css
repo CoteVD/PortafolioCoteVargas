@@ -1,25 +1,130 @@
+body,
+html {
+  background-color: #f0f0f0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rowTop {
+  width: 100%;
+  margin: 0;
+}
+
+.contenedor {
+  margin-bottom: 2rem;
+}
+
 .navbar {
-    background-color: #1B242F;
-    color: #E31B6D;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
+  background-color: #f0f0f0;
 }
 
-.row {
-    margin: 0%;
+.navbar-toggler {
+  border-color: #444144;
 }
 
-.title {
-    margin-top: 5rem;
+.titleName {
+  color: #444144 !important;
+  font-family: "Charmonman", cursive;
+  font-family: "Notable", sans-serif;
 }
 
-.scrollspy-example {
-    position: relative;
-    height: 100%;
-    margin-top: .5rem;
-    overflow: auto;
-    color: #444649
+.navbarTitle {
+  color: #444144;
+  font-family: "Charmonman", cursive;
+  font-family: "Notable", sans-serif;
+  transition: 0.3s;
 }
 
-.card {}
+.navbarTitle:hover {
+  color: #61d0d4;
+}
+
+.normalLetter {
+  color: #444144;
+  font-family: "Quicksand", sans-serif;
+}
+
+.navbarNames {
+  color: #444144;
+  font-family: "Charmonman", cursive;
+  font-family: "Notable", sans-serif;
+  transition: 0.3s;
+}
+
+.navbarNames:hover {
+  color: #61d0d4;
+}
+
+.btnResume {
+  background-color: #e83556;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btnResume:hover {
+    background-color: #e8355665;
+}
+
+.btnProjects {
+  background-color: #61d0d4;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btnProjects:hover {
+    background-color: #61d0d460;
+}
+
+.imgProfile {
+  border-radius: 16px;
+}
+
+.btnContact {
+  background-color: #d1c926;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btnContact:hover {
+    background-color: #d1c9265e;    
+}
+
+.footer {
+  background-color: #e83556;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  bottom: 0;
+}
+
+.rowFooter {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footerLetter {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #61d0d4;
+}
+
+.ancho {
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .margin {
+    margin-top: 3vh;
+  }
+}

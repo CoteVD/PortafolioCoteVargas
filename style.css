@@ -1,57 +1,130 @@
-body {
-    background-image: url(./img/Dibujo1440x748.jpg);
-    background-repeat: no-repeat;
+body,
+html {
+  background-color: #f0f0f0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rowTop {
+  width: 100%;
+  margin: 0;
+}
+
+.contenedor {
+  margin-bottom: 2rem;
 }
 
 .navbar {
-    background: rgba(32, 178, 170, 0.5);
-    color: goldenrod;
-    font-family: 'Lobster', cursive;
-    font-size: 28px;
+  background-color: #f0f0f0;
 }
 
-.navbar-brand {
-    font-size: 28px;
+.navbar-toggler {
+  border-color: #444144;
 }
 
-.nav-link {
-    color: goldenrod;
-    font-family: 'Lobster', cursive;
+.titleName {
+  color: #444144 !important;
+  font-family: "Charmonman", cursive;
+  font-family: "Notable", sans-serif;
 }
 
-.nav-link:hover {
-    color: gold;
+.navbarTitle {
+  color: #444144;
+  font-family: "Charmonman", cursive;
+  font-family: "Notable", sans-serif;
+  transition: 0.3s;
 }
 
-.row {
-    margin: 0%;
+.navbarTitle:hover {
+  color: #61d0d4;
 }
 
-#firstRow {
-    margin-top: 25px;
+.normalLetter {
+  color: #444144;
+  font-family: "Quicksand", sans-serif;
 }
 
-#secondRow {
-    margin-top: 218px;
+.navbarNames {
+  color: #444144;
+  font-family: "Charmonman", cursive;
+  font-family: "Notable", sans-serif;
+  transition: 0.3s;
 }
 
-.btn {
-    opacity: 0.2;
-    font-family: 'Lobster', cursive;
-    font-size: 25px;
-    width: 100%;
+.navbarNames:hover {
+  color: #61d0d4;
 }
 
-.btn:hover {
-    opacity: 1.0;
-    color: goldenrod;
-    border-color: goldenrod;
-    background-image: linear-gradient(to bottom right, lightseagreen, white);
+.btnResume {
+  background-color: #e83556;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 20px;
+  transition: 0.3s;
 }
 
-@media (max-width:425px) {
-    body {
-        background-image: url(./img/Dibujo425x815.jpg);
-        background-repeat: no-repeat;
-    }
+.btnResume:hover {
+    background-color: #e8355665;
+}
+
+.btnProjects {
+  background-color: #61d0d4;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btnProjects:hover {
+    background-color: #61d0d460;
+}
+
+.imgProfile {
+  border-radius: 16px;
+}
+
+.btnContact {
+  background-color: #d1c926;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btnContact:hover {
+    background-color: #d1c9265e;    
+}
+
+.footer {
+  background-color: #e83556;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  bottom: 0;
+}
+
+.rowFooter {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footerLetter {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #61d0d4;
+}
+
+.ancho {
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .margin {
+    margin-top: 3vh;
+  }
 }
