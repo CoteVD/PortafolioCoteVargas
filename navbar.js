@@ -107,7 +107,7 @@ projects = () => {
     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
         <button type="button" class="btn btnProjects p-3 mb-2 ancho margin" onclick="location.href='https://redsocialangular-93d26.firebaseapp.com/login'">Chao Bullying</button>
         <p class="titleName m-0">¡Chao Bullying!</p>
-        <p class="normalLetter mb-0">Independiente 2014-2018 <br> Trabajo independiente en diversas clínicas.</p>
+        <p class="normalLetter mb-0">Descripción corta del proyecto</p>
     </div>
 </div>
 <div class="row justify-content-center animated fadeIn">
@@ -122,7 +122,7 @@ projects = () => {
     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
         <button type="button" class="btn btnProjects p-3 mb-2 ancho margin" onclick="location.href='https://cotevd.github.io/TrabajoFoodMap/'">FoodMap</button>
         <p class="titleName m-0">FoodMap</p>
-        <p class="normalLetter mb-0">Independiente 2014-2018 <br> Trabajo independiente en diversas clínicas.</p>
+        <p class="normalLetter mb-0">Descripción corta del proyecto</p>
     </div>
 </div>
 <div class="row justify-content-center animated fadeIn">
@@ -137,7 +137,7 @@ projects = () => {
     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
         <button type="button" class="btn btnProjects p-3 mb-2 ancho margin" onclick="location.href='https://cotevd.github.io/TrabajoTransLab2.0/'">TransLab</button>
         <p class="titleName m-0">TransLab</p>
-        <p class="normalLetter mb-0">Independiente 2014-2018 <br> Trabajo independiente en diversas clínicas.</p>
+        <p class="normalLetter mb-0">Descripción corta del proyecto</p>
     </div>
 </div>
     `;
