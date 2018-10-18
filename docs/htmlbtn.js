@@ -8,7 +8,7 @@ smallCV = () => {
     </div>
     <div class="row justify-content-center animated fadeIn">
         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
-            <button type="button" class="btn btnResume p-3 mb-2 ancho">Experiencia laboral</button>
+            <button type="button" class="btn btnProfile p-3 mb-2 ancho">Experiencia laboral</button>
         </div>
         <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
             <p class="titleName m-0">Médico Veterinaria</p>
@@ -22,7 +22,7 @@ smallCV = () => {
     </div>
     <div class="row justify-content-center animated fadeIn">
         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
-            <button type="button" class="btn btnResume p-3 mb-2 ancho">Educación</button>
+            <button type="button" class="btn btnProfile p-3 mb-2 ancho">Educación</button>
         </div>
         <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">    
             <p class="titleName m-0">Laboratoria</p>
@@ -72,9 +72,16 @@ smallPro = () => {
             <img class="img-fluid imgProfile" src="./img/ChaoBullying.png" alt="Foto">
         </div>
         <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
-            <button type="button" class="btn btnProjects p-3 mb-2 ancho margin">Chao Bullying</button>
-            <p class="titleName m-0">¡Chao Bullying!</p>
-            <p class="normalLetter mb-0">Descripción corta del proyecto</p>
+            <p class="titleName m-0 margin">¡Chao Bullying!</p>
+            <p class="normalLetter">Trabajo en el que creé una red social. Para hacer la página utilicé Angular 6 y para la base de datos utilicé Firebase. Se pueden postear, editar y borrar los mensajes.</p>
+            <div class="row justify-content-center animated fadeIn">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <button type="button" class="btn btnProjects p-3 mb-2 ancho" onclick="location.href='https://redsocialangular-93d26.firebaseapp.com/login'">Demo</button>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <button type="button" class="btn btnContact p-3 mb-2 ancho" onclick="location.href='https://github.com/CoteVD/TrabajoRedSocialAngular'">GitHub</button>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row justify-content-center animated fadeIn">
@@ -86,10 +93,17 @@ smallPro = () => {
         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
             <img class="img-fluid imgProfile" src="./img/FoodMap.png" alt="Foto">
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
-            <button type="button" class="btn btnProjects p-3 mb-2 ancho margin">FoodMap</button>
-            <p class="titleName m-0">FoodMap</p>
-            <p class="normalLetter mb-0">Descripción corta del proyecto</p>
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">            
+            <p class="titleName m-0 margin">FoodMap</p>
+            <p class="normalLetter">Aplicación en la que se pueden buscar distintos tipos de comida y restaurantes. Para hacer la aplicación utilicé JavaScript y el mapa es de Google Maps; la información de las tiendas utilizada pertenece a Google Places.</p>
+            <div class="row justify-content-center animated fadeIn">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <button type="button" class="btn btnProjects p-3 mb-2 ancho" onclick="location.href='https://cotevd.github.io/TrabajoFoodMap/'">Demo</button>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <button type="button" class="btn btnContact p-3 mb-2 ancho" onclick="location.href='https://github.com/CoteVD/TrabajoFoodMap'">GitHub</button>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row justify-content-center animated fadeIn">
@@ -102,9 +116,16 @@ smallPro = () => {
             <img class="img-fluid imgProfile" src="./img/TransLab.png" alt="Foto">
         </div>
         <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
-            <button type="button" class="btn btnProjects p-3 mb-2 ancho margin">TransLab</button>
-            <p class="titleName m-0">TransLab</p>
-            <p class="normalLetter mb-0">Descripción corta del proyecto</p>
+            <p class="titleName m-0 margin">TransLab</p>
+            <p class="normalLetter">Aplicación que permite revisar el saldo que tiene la tarjeta BIP ingresada. Permite también calcular el saldo, con respecto a los distintos precios de los pasajes. Está hecha con JavaScript.</p>
+            <div class="row justify-content-center animated fadeIn">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <button type="button" class="btn btnProjects p-3 mb-2 ancho linea" onclick="location.href='https://cotevd.github.io/TrabajoTransLab2.0/'">Demo</button>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <button type="button" class="btn btnContact p-3 mb-2 ancho linea" onclick="location.href='https://github.com/CoteVD/TrabajoTransLab2.0'">Github</button>
+                </div>
+            </div>
         </div>
     </div>
     `;

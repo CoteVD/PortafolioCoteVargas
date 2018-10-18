@@ -1,3 +1,9 @@
+window.onload = () => {
+  $(".navbar-nav>li>a").on("click", function() {
+    $(".navbar-collapse").collapse("hide");
+  });
+};
+
 profile = () => {
   $(".navbar-nav>li>a").on("click", function() {
     $(".navbar-collapse").collapse("hide");
@@ -11,14 +17,14 @@ profile = () => {
         <p class="titleName">Hola,</p>
         <p class="normalLetter">un poco acerca de mi:</p>
         <span class="text-center"><button type="button" class="btn btnResume m-1" onclick="smallCV()">Currículum</button><button type="button" class="btn btnProjects m-1" onclick="smallPro()">Proyectos</button><button
-                type="button" class="btn btnContact m-1" onclick="smallCon()">Contáctame</button></span>
-        <p class="normalLetter">Me llamo María José Vargas Donoso, tengo 32 años y vivo en Chile.</p>
+                type="button" class="btn btnContact m-1" onclick="smallCon()">Contacto</button></span>
+        <p class="normalLetter">Me llamo María José Vargas Donoso y vivo en Santiago de Chile.</p>
         <p class="normalLetter">Soy una mujer apasionada por el mundo tecnológico desde pequeña. Estudié
             Medicina Veterinaria pero
             me dí cuenta que no era mi rumbo, así que decidí dar el paso y buscar mi destino en el mundo de la
             programación. Lejos, una excelente decisión.</p>
         <p class="normalLetter">Busco lugares que aporten a mi desarrollo personal y profesional. Me encanta lo
-            que hago y soy muy autodidacta. Me encanta aprender y desafiarme constantemente.</p>
+            que hago y soy muy autodidacta. Me fascina aprender y desafiarme constantemente.</p>
     </div>
 </div>   
     `;
@@ -37,7 +43,7 @@ resume = () => {
 </div>
 <div class="row justify-content-center animated fadeIn">
     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
-        <button type="button" class="btn btnResume p-3 mb-2 ancho">Experiencia laboral</button>
+        <button type="button" class="btn btnProfile p-3 mb-2 ancho">Experiencia laboral</button>
     </div>
     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
         <p class="titleName m-0">Médico Veterinaria</p>
@@ -51,7 +57,7 @@ resume = () => {
 </div>
 <div class="row justify-content-center animated fadeIn">
     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
-        <button type="button" class="btn btnResume p-3 mb-2 ancho">Educación</button>
+        <button type="button" class="btn btnProfile p-3 mb-2 ancho">Educación</button>
     </div>
     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">    
         <p class="titleName m-0">Laboratoria</p>
@@ -105,9 +111,16 @@ projects = () => {
         <img class="img-fluid imgProfile" src="./img/ChaoBullying.png" alt="Foto">
     </div>
     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
-        <button type="button" class="btn btnProjects p-3 mb-2 ancho margin" onclick="location.href='https://redsocialangular-93d26.firebaseapp.com/login'">Chao Bullying</button>
-        <p class="titleName m-0">¡Chao Bullying!</p>
-        <p class="normalLetter mb-0">Descripción corta del proyecto</p>
+        <p class="titleName m-0 margin">¡Chao Bullying!</p>
+        <p class="normalLetter">Trabajo en el que creé una red social. Para hacer la página utilicé Angular 6 y para la base de datos utilicé Firebase. Se pueden postear, editar y borrar los mensajes.</p>
+        <div class="row justify-content-center animated fadeIn">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                <button type="button" class="btn btnProjects p-3 mb-2 ancho" onclick="location.href='https://redsocialangular-93d26.firebaseapp.com/login'">Demo</button>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                <button type="button" class="btn btnContact p-3 mb-2 ancho" onclick="location.href='https://github.com/CoteVD/TrabajoRedSocialAngular'">GitHub</button>
+            </div>
+        </div>
     </div>
 </div>
 <div class="row justify-content-center animated fadeIn">
@@ -119,10 +132,17 @@ projects = () => {
     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
         <img class="img-fluid imgProfile" src="./img/FoodMap.png" alt="Foto">
     </div>
-    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
-        <button type="button" class="btn btnProjects p-3 mb-2 ancho margin" onclick="location.href='https://cotevd.github.io/TrabajoFoodMap/'">FoodMap</button>
-        <p class="titleName m-0">FoodMap</p>
-        <p class="normalLetter mb-0">Descripción corta del proyecto</p>
+    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">        
+        <p class="titleName m-0 margin">FoodMap</p>
+        <p class="normalLetter">Aplicación en la que se pueden buscar distintos tipos de comida y restaurantes. Para hacer la aplicación utilicé JavaScript y el mapa es de Google Maps; la información de las tiendas utilizada pertenece a Google Places.</p>
+        <div class="row justify-content-center animated fadeIn">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                <button type="button" class="btn btnProjects p-3 mb-2 ancho" onclick="location.href='https://cotevd.github.io/TrabajoFoodMap/'">Demo</button>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                <button type="button" class="btn btnContact p-3 mb-2 ancho" onclick="location.href='https://github.com/CoteVD/TrabajoFoodMap'">GitHub</button>
+            </div>
+        </div>
     </div>
 </div>
 <div class="row justify-content-center animated fadeIn">
@@ -134,10 +154,17 @@ projects = () => {
     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
         <img class="img-fluid imgProfile" src="./img/TransLab.png" alt="Foto">
     </div>
-    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
-        <button type="button" class="btn btnProjects p-3 mb-2 ancho margin" onclick="location.href='https://cotevd.github.io/TrabajoTransLab2.0/'">TransLab</button>
-        <p class="titleName m-0">TransLab</p>
-        <p class="normalLetter mb-0">Descripción corta del proyecto</p>
+    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">        
+        <p class="titleName m-0 margin">TransLab</p>
+        <p class="normalLetter">Aplicación que permite revisar el saldo que tiene la tarjeta BIP ingresada. Permite también calcular el saldo, con respecto a los distintos precios de los pasajes. Está hecha con JavaScript.</p>
+        <div class="row justify-content-center animated fadeIn">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                <button type="button" class="btn btnProjects p-3 mb-2 ancho linea" onclick="location.href='https://cotevd.github.io/TrabajoTransLab2.0/'">Demo</button>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                <button type="button" class="btn btnContact p-3 mb-2 ancho linea" onclick="location.href='https://github.com/CoteVD/TrabajoTransLab2.0'">Github</button>
+            </div>
+        </div>
     </div>
 </div>
     `;

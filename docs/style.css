@@ -7,13 +7,21 @@ html {
   box-sizing: border-box;
 }
 
+p {
+  text-align: justify;
+}
+
 .rowTop {
+  position: fixed;
   width: 100%;
   margin: 0;
+  top: 0;
+  z-index: 10000;
 }
 
 .contenedor {
   margin-bottom: 2rem;
+  margin-top: 7rem;
 }
 
 .navbar {
@@ -65,8 +73,19 @@ html {
   transition: 0.3s;
 }
 
+.btnProfile {
+  background-color: #e83556;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 20px;
+}
+
+.linea {
+  display: inline;
+}
+
 .btnResume:hover {
-    background-color: #e8355665;
+  background-color: #e8355665;
 }
 
 .btnProjects {
@@ -78,7 +97,7 @@ html {
 }
 
 .btnProjects:hover {
-    background-color: #61d0d460;
+  background-color: #61d0d460;
 }
 
 .imgProfile {
@@ -94,13 +113,14 @@ html {
 }
 
 .btnContact:hover {
-    background-color: #d1c9265e;    
+  background-color: #d1c9265e;
 }
 
 .footer {
   background-color: #e83556;
   font-family: "Quicksand", sans-serif;
   width: 100%;
+  left: 0;
   bottom: 0;
 }
 
@@ -125,6 +145,12 @@ html {
 
 @media (max-width: 575px) {
   .margin {
-    margin-top: 3vh;
+    margin-top: 1vh !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .contenedor {
+    margin-top: 9rem !important;
   }
 }
