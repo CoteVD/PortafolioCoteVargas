@@ -14,10 +14,8 @@ profile = () => {
         <img class="fotoProfile img-fluid" src="./img/photoProfile.png" alt="Foto">
     </div>
     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-        <p class="titleName">Hola,</p>
+        <p class="titleName mb-0">Hola,</p>
         <p class="normalLetter">un poco acerca de mi:</p>
-        <span class="text-center"><button type="button" class="btn btnResume m-1" onclick="smallCV()">Currículum</button><button type="button" class="btn btnProjects m-1" onclick="smallPro()">Proyectos</button><button
-                type="button" class="btn btnContact m-1" onclick="smallCon()">Contacto</button></span>
         <p class="normalLetter">Me llamo María José Vargas Donoso y vivo en Santiago de Chile.</p>
         <p class="normalLetter">Soy una mujer apasionada por el mundo tecnológico desde pequeña. Estudié
             Medicina Veterinaria pero
@@ -25,6 +23,8 @@ profile = () => {
             programación. Lejos, una excelente decisión.</p>
         <p class="normalLetter">Busco lugares que aporten a mi desarrollo personal y profesional. Me encanta lo
             que hago y soy muy autodidacta. Me fascina aprender y desafiarme constantemente.</p>
+        <span class="text-center"><button type="button" class="btn btnResume m-1" onclick="smallCV()">Currículum</button><button type="button" class="btn btnProjects m-1" onclick="smallPro()">Proyectos</button><button
+            type="button" class="btn btnContact m-1" onclick="smallCon()">Contacto</button></span>
     </div>
 </div>   
     `;
