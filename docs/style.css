@@ -38,6 +38,12 @@ p {
   font-family: "Notable", sans-serif;
 }
 
+.titleFooter {
+  color: white;
+  font-family: "Charmonman", cursive;
+  font-family: "Notable", sans-serif;
+}
+
 .navbarTitle {
   color: #444144;
   font-family: "Charmonman", cursive;
@@ -65,14 +71,6 @@ p {
   color: #61d0d4;
 }
 
-.btnResume {
-  background-color: #e83556;
-  color: white;
-  font-family: "Quicksand", sans-serif;
-  border-radius: 20px;
-  transition: 0.3s;
-}
-
 .btnProfile {
   background-color: #e83556;
   color: white;
@@ -84,14 +82,11 @@ p {
   display: inline;
 }
 
-.btnResume:hover {
-  background-color: #e8355665;
-}
-
 .btnProjects {
   background-color: #61d0d4;
   color: white;
   font-family: "Quicksand", sans-serif;
+  width: 100%;
   border-radius: 20px;
   transition: 0.3s;
 }
@@ -108,6 +103,7 @@ p {
   background-color: #d1c926;
   color: white;
   font-family: "Quicksand", sans-serif;
+  width: 100%;
   border-radius: 20px;
   transition: 0.3s;
 }
@@ -151,6 +147,6 @@ p {
 
 @media (max-width: 320px) {
   .contenedor {
-    margin-top: 9rem !important;
+    margin-top: 7rem !important;
   }
 }
