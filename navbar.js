@@ -11,7 +11,7 @@ profile = () => {
   container.innerHTML = `
 <div class="row justify-content-center animated fadeIn">
     <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4 col-12">
-        <img class="fotoProfile img-fluid" src="./img/photoProfile.png" alt="Foto">
+        <img class="fotoProfile img-fluid" src="./img/photoProfile2.png" alt="Foto">
     </div>
     <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4 col-12">
         <p class="titleName mb-0">Hola,</p>
