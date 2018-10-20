@@ -1,20 +1,20 @@
 
 # Mi Portafolio
-### Descripción
+## Descripción
 Mi portafolio, donde me puedes conocer y ver mis trabajos. 
-### Lenguajes de programación usados
+## Lenguajes de programación usados
 * JavaScript ES6
 * CSS3
 * HTML5
-### Librería
+## Librería
 * Bootstrap 4
-### Description
+## Description
 My portfolio, where you can know more about me and my skills.
-### Programming languages
+## Programming languages
 * JavaScript ES6
 * CSS3
 * HTML5
-### Framework
+## Framework
 * Bootstrap 4
-### Deploy link
+## Deploy link
 https://cotevd.github.io/PortafolioCoteVargas/
